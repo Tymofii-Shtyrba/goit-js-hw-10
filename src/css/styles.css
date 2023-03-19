@@ -18,3 +18,23 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.flag-icon {
+  margin-right: 10px;
+}
+
+.row-header {
+  font-weight: 700;
+}
+
+.country-card-name {
+  font-weight: 700;
+  font-size: 20px;
+}
